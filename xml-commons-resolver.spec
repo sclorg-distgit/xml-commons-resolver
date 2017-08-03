@@ -4,7 +4,7 @@
 Name:           %{?scl_prefix}xml-commons-resolver
 Epoch:          0
 Version:        1.2
-Release:        22.1%{?dist}
+Release:        22.2%{?dist}
 Summary:        Resolver subproject of xml-commons
 License:        ASL 2.0
 URL:            http://xerces.apache.org/xml-commons/components/resolver/
@@ -72,6 +72,9 @@ install -p -m 644 %{SOURCE8} ${RPM_BUILD_ROOT}%{_mandir}/man1/xml-xread.1
 %doc LICENSE.resolver.txt NOTICE-resolver.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 0:1.2-22.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 0:1.2-22.1
 - Automated package import and SCL-ization
 
